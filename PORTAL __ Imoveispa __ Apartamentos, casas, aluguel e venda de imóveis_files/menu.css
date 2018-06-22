@@ -1,0 +1,74 @@
+.outros-busca{
+	float: left;
+}
+
+#price{
+	padding-left: 10px
+}
+
+.home #divCaixaBusca .nivel-busca .tipo-transacao .buttons {
+	background-color: #fff;
+}
+
+.home #divCaixaBusca .nivel-busca .tipo-transacao {    
+    border-right: 1px solid #000;
+}
+
+.home #divCaixaBusca .nivel-busca .tipo-transacao label {
+	border-right: 1px solid #000;
+}
+
+
+
+@media only screen and (max-width: 830px) {
+    .home #divCaixaBusca .nivel-busca .tipo-transacao {    
+	    border-right: 1px solid #fff;
+	    margin-bottom: 5px !important;
+	    border-bottom: none;
+	}
+
+	#price{
+		padding-left: 0px
+	}
+}
+
+@media only screen and (min-width: 831px) and (max-width: 1280px) {
+	.local-busca {
+	    width: calc(100% - 300px);
+	}
+
+	.home #divCaixaBusca .nivel-busca .tipo-transacao {
+		margin-top: 8px;
+	}
+
+	.home #divCaixaBusca .nivel-busca .tipo-transacao label {	    
+	    height: 37px;
+	}
+
+	.home #divCaixaBusca .nivel-busca .tipo-transacao .buttons .button {
+		line-height: 0.6;
+	    height: 37px;
+	}
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1500px) {
+	.outros-busca{
+		width: auto;
+	}
+	.local-busca{
+		width: calc(100% - 1030px);
+	}
+}
+
+@media only screen and (min-width: 1501px) {
+	.outros-busca{
+		width: auto;
+	}
+	.local-busca{
+		width: calc(100% - 1030px);
+	}
+}
+
+.home #divCaixaBusca .nivel-busca .tipo-transacao {    
+    padding-left: 0px !important;    
+}
